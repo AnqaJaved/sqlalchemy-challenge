@@ -63,6 +63,7 @@ The Flask API provides several routes to access climate data:
 ### Clone the Repository
 
 git clone https://github.com/AnqaJaved/sqlalchemy-challenge.git
+
 cd sqlalchemy-challenge/SurfsUp
 
 ##Install Dependencies
@@ -75,10 +76,15 @@ python app.py
 With the Flask app running, you can test the API routes by visiting the following URLs in your browser or using a tool like Postman:
 
 ##Home Route: http://127.0.0.1:5000/
+
 ##Precipitation Route: http://127.0.0.1:5000/api/v1.0/precipitation
+
 ##Stations Route: http://127.0.0.1:5000/api/v1.0/stations
+
 ##Temperature Observations Route: http://127.0.0.1:5000/api/v1.0/tobs
+
 ##Start Date Route (e.g., August 1, 2016): http://127.0.0.1:5000/api/v1.0/2016-08-01
+
 ##Start and End Date Route (e.g., August 1–23, 2016): http://127.0.0.1:5000/api/v1.0/2016-08-01/2016-08-23
 
 ##Conclusion
